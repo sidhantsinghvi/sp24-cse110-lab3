@@ -85,6 +85,11 @@ hr {
 
 }
 
+.image {
+    max-width: 100%;   /* Image will not exceed its parent container's width */
+    max-height: auto;      /* Maintain aspect ratio */
+}
+
 form {
     border: 1px solid #ccc;
     padding: 20px;
@@ -154,8 +159,8 @@ button:hover {
 
 
 .box {
-    width: 300px;
-    height: 200px;
+     width: 300px;
+     height: 200px;
     background-color: lightblue;
     margin: auto; /* Center horizontally */
     padding: 20px;
