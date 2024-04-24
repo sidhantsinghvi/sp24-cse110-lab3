@@ -12,12 +12,12 @@ body {
     padding: 20px;
 }
 element {
-    color: color(lab 70% -10 30 / 0.8); /* Set text color using CIE LAB color space with alpha */
+     color: color(lab 70% -10 30 / 0.8); /* Set text color using CIE LAB color space with alpha */
     background-color: color(lch 70% 40 270 / 0.6); /* Set background color using CIE LCH color space with alpha */
     border-color: color-mix(multiply, yellow, cyan); /* Multiplicative color mixing of yellow and cyan for border */
 }
 header {
-    text-align: center;
+    text-align:  center;
     margin-bottom: 20px;
 }
 nav ul {
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+     text-decoration: none;
     color: #3a7ec7;
     font-weight: bold;
 }
