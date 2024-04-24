@@ -11,7 +11,10 @@ body {
     color: #333;
     padding: 20px;
 }
-
+element {
+    color: color(lab 70% -10 30 / 0.8); /* Set text color using CIE LAB color space with alpha */
+    background-color: color(lch 70% 40 270 / 0.6); /* Set background color using CIE LCH color space with alpha */
+}
 header {
     text-align: center;
     margin-bottom: 20px;
