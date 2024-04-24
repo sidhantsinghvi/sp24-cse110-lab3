@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, ul, ol {/*selector
+body, h1, h2, h3, p, ul, ol {/*selector*/
     margin: 0;
     padding: 0;
 }
@@ -96,7 +96,7 @@ hr {
 
 .image:active {         /*class selector*/
     max-width: 100%;   /* Image will not exceed its parent container's width */
-    max-height: auto;      /* Maintain aspect ratio */
+    max-height: 20%;     
 }
 
 form {
@@ -239,7 +239,7 @@ div:has(a) {/*New Selectors :has() */
     display:  grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
     grid-gap: 10px; /* Gap between grid items */
-    border-radius: 2;
+    border-radius: 2px;
     border: #333;
 }
 .grid-item {
