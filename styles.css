@@ -53,6 +53,7 @@ section {
 /* Apply CSS variable with fallback */
 h1 {
     color: var(--main-color, rgb(244, 88, 32)); /* Use variable with fallback */
+font-family: 'Roboto', sans-serif;
 }
 
 h2 {
