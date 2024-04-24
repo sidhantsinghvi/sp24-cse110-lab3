@@ -85,7 +85,7 @@ hr {
 
 }
 
-.image {
+.image:active {
     max-width: 100%;   /* Image will not exceed its parent container's width */
     max-height: auto;      /* Maintain aspect ratio */
 }
@@ -119,7 +119,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover  {
     background-color: blue;
 }
 
