@@ -197,8 +197,31 @@ button:hover  {
 
 .sticky-element {
     position: sticky;    /* Sticky positioning */
-    top: 20px;
+    top: 50px;
     background-color: #f8f9fa;
     padding: 10px;
+}
+.flex-container {
+    display:   flex;
+    justify-content: space-around; /* Arrange items with space around */
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Gap between flex items */
+}
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+     flex: 1; /* Grow and shrink equally */
+}
+.grid-container {
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    grid-gap: 10px; /* Gap between grid items */
+    border-radius: 2;
+    border: #333;
+}
+.grid-item {
+    background-color: rgb(210, 238, 144);
+    padding: 20px;
+    text-align: center;
 }
 

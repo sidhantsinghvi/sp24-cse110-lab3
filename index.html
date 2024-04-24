@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    
     <header>
         <h1>Meeting Minutes</h1>
         <h2>Team Weekly Meeting</h2>
@@ -33,9 +33,14 @@
         <section id="attendance">
             <h2>Attendance</h2>
             <ul>
-                <li>Sidhant</li>
+                <!-- <li>Sidhant</li>
                 <li>Pranav</li>
-                <li>Amogh</li>
+                <li>Amogh</li> -->
+                <div class="flex-container">
+                    <div class="flex-item">Sidhant</div>
+                    <div class="flex-item">Pranav</div>
+                    <div class="flex-item">Amogh</div>
+                </div>
             </ul>
         </section>
 
@@ -46,16 +51,16 @@
                 <li>Discuss upcoming deadlines</li>
                 <li>Assign tasks for the next week</li>
                 <div class="container"> -->
+                    <li>  <div class="static-element">Review progress on project</div></li>
                    <li>  <div class="static-element">Review progress on project</div></li>
-                   <li> <div class="static-element">Discuss upcoming deadlines</div></li>>
-                   <li> <div class="sticky-element">Assign tasks for the next week</div></li>>
+                   <li> <div class="sticky-element">Discuss upcoming deadlines</div></li>
                 </div>
             </ol>
         </section>
 
         <section id="unfinished">
             <h2>Unfinished Business</h2>
-            <p>Top priority: Task from last week still pending completion.</p>
+            <p>Top priority: Fundraier task from last week still pending completion.</p>
         </section>
 
         <section id="new">
@@ -69,28 +74,20 @@
             <p>Pranav asked about training opportunities.</p>
         </section>
 
-        <section>
-            <h2>Meeting Diagram</h2>
-            <img src="randomimage.jpeg" alt="Meeting Diagram">
-        </section>
-
-        <section>
-            <h2>Audio Recording</h2>
-            <audio controls>
-                <source src="wind-chimes-37762.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
-        </section>
-
-        <section>
-            <h2>Video Recording</h2>
-            <video controls>
-                <source src="1006_motion_background_abstract_hd1627.mov" type="video/mp4">
-                Your browser does not support the video element.
-            </video>
+      
     
         </section>
-
+        <div class="grid-container">
+            <div class="grid-item"><img src="randomimage.jpeg" alt="Meeting Diagram"></div>
+            <div class="grid-item">  <audio controls>
+                <source src="wind-chimes-37762.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio></div>
+            <div class="grid-item"> <video controls>
+                <source src="1006_motion_background_abstract_hd1627.mov" type="video/mp4">
+                Your browser does not support the video element.
+            </video></div>
+        </div>
         <section>
             <h2>Interactive Form</h2>
             <form>
