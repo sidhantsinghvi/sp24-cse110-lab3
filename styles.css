@@ -39,8 +39,14 @@ section {
     margin-bottom: 30px;
 }
 
+/* Define CSS variable with fallback */
+:root {
+    --main-color: #007bff; /* Default blue color */
+}
+
+/* Apply CSS variable with fallback */
 h1 {
-    color: #007bff;
+    color: var(--main-color, blue); /* Use variable with fallback */
 }
 
 h2 {
