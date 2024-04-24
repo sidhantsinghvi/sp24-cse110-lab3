@@ -51,9 +51,18 @@ section {
 }
 
 /* Apply CSS variable with fallback */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
-    color: var(--main-color, rgb(244, 88, 32)); /* Use variable with fallback */
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Use bold (700) weight for headings */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Use regular (400) weight for paragraphs */
 }
 
 h2 {
