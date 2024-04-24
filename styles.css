@@ -14,6 +14,7 @@ body {
 element {
     color: color(lab 70% -10 30 / 0.8); /* Set text color using CIE LAB color space with alpha */
     background-color: color(lch 70% 40 270 / 0.6); /* Set background color using CIE LCH color space with alpha */
+    border-color: color-mix(multiply, yellow, cyan); /* Multiplicative color mixing of yellow and cyan for border */
 }
 header {
     text-align: center;
