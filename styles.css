@@ -169,4 +169,36 @@ button:hover {
     border-width: 2px;
     border-radius: 8px;
 }
+.container {
+    position: relative;  /* Relative positioning */
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f8f9fa;
+    padding: 20px;
+}
+
+.fixed-element {
+    position: fixed;     /* Fixed positioning */
+    top: 10px;
+    right: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.absolute-element {
+    position: absolute;  /* Absolute positioning */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8f9fa;
+    color: #fff;
+    padding: 10px;
+}
+
+.sticky-element {
+    position: sticky;    /* Sticky positioning */
+    top: 20px;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
 
