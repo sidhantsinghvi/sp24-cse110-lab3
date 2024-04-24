@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, ul, ol {
+body, h1, h2, h3, p, ul, ol {/*selector
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body {
     color: #333;
     padding: 20px;
 }
-element {
+element { /*element selector*/
      color: color(lab 70% -10 30 / 0.8); /* Set text color using CIE LAB color space with alpha */
     background-color: color(lch 70% 40 270 / 0.6); /* Set background color using CIE LCH color space with alpha */
     border-color: color-mix(multiply, yellow, cyan); /* Multiplicative color mixing of yellow and cyan for border */
@@ -20,13 +20,15 @@ header {
     text-align:  center;
     margin-bottom: 20px;
 }
-nav ul {
+nav ul { /*Descendant Combinator*/ 
     list-style-type: none;
     display:  flex;
     justify-content: center;
 }
-
-nav ul li {
+* { /*universal selector*/
+    box-sizing: border-box;
+}
+nav > ul > li { /* Child Combinator*/
     margin-right: 15px;
 }
 
@@ -59,7 +61,14 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
-
+h2 ~ p { /*general sibling combinator*/
+    font-style: italic;
+    color: #888;
+}
+h2 + p {/*Adjacent sibling combinator*/
+    color: rgb(109, 99, 99);
+    font-weight: bold;
+}
 h3 {
     color: #555;
 }
@@ -85,7 +94,7 @@ hr {
 
 }
 
-.image:active {
+.image:active {         /*class selector*/
     max-width: 100%;   /* Image will not exceed its parent container's width */
     max-height: auto;      /* Maintain aspect ratio */
 }
@@ -101,7 +110,7 @@ label {
     font-weight: bold;
 }
 
-input[type="text"],
+input[type="text"], /*attribute selector*/
 textarea {
     width: 100%;
     padding: 10px;
@@ -119,13 +128,13 @@ button {
     cursor: pointer;
 }
 
-button:hover  {
+button:hover  { /*Pseudo-class Selector */
     background-color: blue;
 }
 
 
 /* Styling the 'Attendance' section */
-#attendance {
+#attendance {   /*id selector*/
     background-color: #f8f9fa; /* Light gray background */
     padding: 20px; /* Add padding for spacing */
 }
@@ -168,6 +177,20 @@ button:hover  {
     border-color: navy;
     border-width: 2px;
     border-radius: 8px;
+}
+div.box {/*Combining Two Selectors */
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid navy;
+    border-radius: 8px;
+}
+div:has(a) {/*New Selectors :has() */
+    background-color: lightblue;
+    padding: 10px;
+}
+.container p { /*nested selectors*/
+    color: #333;
+    font-size: 16px;
 }
 .container {
     position: relative;  /* Relative positioning */
