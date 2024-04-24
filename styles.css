@@ -147,3 +147,20 @@ button:hover {
     background-color: #d4edda; /* Light green background */
     padding: 20px; /* Add padding for spacing */
 }
+/* Example of applying box model properties to an element */
+
+/* Example of applying box model properties to an element */
+
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    margin: auto; /* Center horizontally */
+    padding: 20px;
+    border-style: solid;
+    border-color: navy;
+    border-width: 2px;
+    border-radius: 8px;
+}
+
