@@ -6,8 +6,8 @@ body, h1, h2, h3, p, ul, ol {
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 80vh;
-    background-color: rgba(165, 127, 78, 0.7);
+    line-height: 5vh;
+    background-color: rgba(53, 45, 209, 0.7);
     color: #333;
     padding: 20px;
 }
@@ -50,19 +50,18 @@ section {
 
 /* Apply CSS variable with fallback */
 h1 {
-    color: var(--main-color, blue); /* Use variable with fallback */
+    color: var(--main-color, rgb(244, 88, 32)); /* Use variable with fallback */
 }
 
 h2 {
     color: hsl(30, 70%, 60%);
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #ea2a19;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 h3 {
     color: #555;
-    font-size: 5vw;
 }
 
 audio, video {
@@ -74,7 +73,7 @@ audio, video {
 footer {
     text-align: center;
     margin-top: 0.8cm;
-    padding: 10px 0;
+    padding: 11px 0;
     background-color: #007bff;
     color: #fff;
 
