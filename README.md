@@ -1,1 +1,1 @@
-https://sidhantsinghvi.github.io/sp24-cse110-lab3/index.html
+https://sidhantsinghvi.github.io/sp24-cse110-lab3
