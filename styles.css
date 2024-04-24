@@ -106,3 +106,33 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+/* Styling the 'Attendance' section */
+#attendance {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Styling the 'Agenda' section */
+#agenda {
+    background-color: #e9ecef; /* Light blue-gray background */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Styling the 'Unfinished Business' section */
+#unfinished {
+    background-color: #d1ecf1; /* Light cyan background */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Styling the 'New Business' section */
+#new {
+    background-color: #fff3cd; /* Light yellow background */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Styling the 'Comments/Questions/Concerns' section */
+#comments {
+    background-color: #d4edda; /* Light green background */
+    padding: 20px; /* Add padding for spacing */
+}
